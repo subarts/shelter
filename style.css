@@ -1,0 +1,1004 @@
+img{
+    width: auto;
+    height: auto;
+}
+.menu{
+   display: none;
+    width: 1.37rem;
+    height: 1.87rem;
+}
+.lineMenu{
+    color: #F1CDB3;
+    border: 0.111rem solid #F1CDB3;
+    display: block;
+
+}
+body{
+    
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    background: url(./assets/img/start-screen-gradient-background.png),radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: 100% 56.75rem;
+    background-position: top;
+    scroll-behavior: smooth;
+    cursor: default;
+    
+}
+
+footer{
+    background:url(./assets/img/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+}
+h1{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.75rem;
+    color: #FFFFFF;
+    line-height: 130%;
+    text-shadow: 0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.0625rem;
+    -webkit-text-stroke-color: #000000;
+
+}
+h2{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.18rem;
+    line-height: 130%;
+    letter-spacing: 0.13rem;
+    color: #545454;
+}
+.container{
+    max-width: 75rem;
+
+}
+.logoBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.62rem;
+}
+.logo{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size:2rem;
+    line-height: 110%;
+    letter-spacing: 0.06rem;
+    color: #F1CDB3;
+    display: flex;
+    align-items: center;
+}
+.logoText{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.81rem;
+    line-height: 0.93rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+}
+.container{
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.87rem;
+}
+.navList{
+    gap: 2.3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+.nav{
+    gap: 2.3rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 160%;
+    color: #CDCDCD;
+    list-style-type: none;
+}
+.dogOne{
+    width:43.62rem ;
+    height:45.5rem;
+    position: relative;
+    top: -0.625rem;
+}
+
+.buttonOne{
+    width: 12.93rem;
+    height: 3.25rem;
+    background: #F1CDB3;
+    border-radius: 6.25rem;
+
+}
+.buttonText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size:1.06rem;
+    line-height: 130%;
+    letter-spacing: 0.06rem;
+    color: #292929;
+
+}
+.notOnly{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 6.2rem;
+    height: 45.5rem;
+    filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
+}
+.sectionOneText{
+    display: flex;
+    flex-direction: column;
+    padding-top: 9.5rem;
+    gap: 2.61rem;
+}
+ p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 160%;
+    
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+}
+.dogTwo{
+    padding-right: 7.4rem;
+    height: 25.5rem;
+}
+.aboutShelter{
+    border-bottom: 0.18rem solid #F1CDB3;
+    cursor: default;
+    color: #FAFAFA;
+}
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    min-height: 36.75rem;
+    background: #FFFFFF;
+    margin-top: 5.625rem;
+    padding-top: 5.0625rem;
+}
+.sectionTwoPar{
+    color: #4C4C4C
+}
+.sectionTwoText{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding-top: 0.8rem;
+        padding-right: 11.55rem;
+    }
+
+.buttonTwo{
+    height: 3.25rem;
+    width: 16.31rem;
+    background: #F1CDB3;
+    border-radius: 6.25rem;
+
+}
+.ourFriends{
+    background: #F6F6F6;
+    height:  54.8125rem;
+}
+.friends{
+    height: 43.5625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 5rem;
+}
+.arrowLeft{
+    height:3.25rem;
+    width: 3.25rem;
+    border: 0.12rem solid #F1CDB3;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.arrowOne{
+    width: 0.87rem;
+    height: 0.37rem;
+    color: #292929;
+}
+.arrowRight{
+    height:3.25rem;
+    width: 3.25rem;
+    border: 0.12rem solid #F1CDB3;
+    border-radius: 6.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.arrowTwo{
+    width: 0.87rem;
+    height: 0.37rem;
+    color: #292929;
+    rotate: 180deg;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 61.875rem;
+    row-gap: 1.87rem;
+}
+.pets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 27.18rem;
+    width: 16.87rem;
+    background: #FAFAFA;
+    border-radius: 0.56rem;
+}
+.petImg{
+    width: 16.87rem;
+    height: 16.87rem;
+
+}
+.petName{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    padding-top: 1.84rem;
+
+}
+.learnMore{
+    width: 11.68rem;
+    height: 3.25rem;
+    border: 0.12rem solid #F1CDB3;
+    border-radius: 6.25rem;
+
+}
+.buttonText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 130%;
+    letter-spacing: 0.06rem;
+    color: #292929;
+}
+label{
+    padding-top: 1.9rem;
+}
+.learnText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.06rem;
+    line-height: 130%;
+    letter-spacing: 0.06rem;
+    color: #292929;
+}
+.arrowCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.topic{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    max-width: 64.5rem;
+    flex-wrap: wrap;
+    gap: 7.61rem;
+    justify-content: center;
+    row-gap: 3.5rem;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:7.062rem;
+    align-items: center;
+}
+.icon>img{
+    width: 3.75rem;
+    height: 3.75rem;
+}
+.iconText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.437rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06rem;
+    color: #545454;
+    white-space: nowrap;
+}
+.help{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3.75rem;
+    min-height: 38.18rem;
+}
+.help>h2{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.18rem;
+    line-height: 2.812rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.13rem;
+    color: #545454;
+    padding-top: 5rem;
+}
+.inputText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.437rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06rem;
+    color: #545454;
+
+}
+.creditCard{
+    width:1.87rem;
+    height:1.43rem;
+}
+.bankCard{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F1CDB3;
+    border-radius: 0.56rem;
+    gap: 0.93rem;
+    width: 21.81rem;
+    height: 2.68rem;
+}
+.bankCard:hover{
+    background:#FDDCC4;
+    transition: 1s;
+}
+.donateSection{
+    background: #F6F6F6;
+
+}
+.donateText{
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.12rem;
+    display: flex;
+    align-items: center;
+    color: #B2B2B2;
+}
+.donate{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap:0.5rem;
+    height: 28.87rem;
+    padding-top: 5.1rem;
+    
+}
+.donate>img{
+    width:31.56rem ;
+    height:16.31rem;
+    position: relative;
+    right: 1.43rem;
+    top: 0.75rem;
+}
+.youCan{
+    height:17.62rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.youCan>h5{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.93rem;
+    line-height: 1.06rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06rem;
+    color: #545454;
+}
+.contacts>h3,.location>h3{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.18rem;
+    line-height: 2.81rem;
+    letter-spacing: 0.13rem;
+    color: #FFFFFF;
+}
+.footerContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top:2.5rem;
+}
+.footerText{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.43rem;
+    letter-spacing: 0.06rem;
+    color: #F1CDB3;
+}
+.footerColumns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.mail{
+    width: 2.5rem;
+    height: 1.62rem;
+}
+.phone{
+    width: 2.5rem;
+    height: 2rem;
+}
+.pin{
+    width: 1.37rem;
+    height: 2rem;
+}
+.contacts,.location{
+    display: flex;
+    flex-direction: column;
+    gap: 2.7rem;
+    padding-top: 1rem;
+}
+.footerLink{
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+
+}
+.location{
+    position: relative;
+    right: 0.25rem;
+}
+.location>.pinOne{
+        position: relative;
+        right: 0.5rem;
+}
+.location>.pinTwo{
+    position: relative;
+    right: 1.25rem;
+}
+button:hover{
+background: #FDDCC4;
+transition: 1s;
+}
+.arrowLeft:hover,.arrowRight:hover{
+    background: #FDDCC4;
+    transition: 1s;
+    cursor: pointer;
+}
+.pets:hover{
+    cursor: pointer;
+    background: #FFFFFF;
+    transition: 1s;
+    box-shadow: 0rem 0.125rem 2.18rem 0.875rem rgba(13, 13, 13, 0.04);
+    
+}
+.pets:hover .learnMore{
+    border: 0rem solid #FDDCC4;
+    background: #FDDCC4;
+    transition: 1s;
+   
+}
+ .navItemFour:hover,.navItemThree:hover,.navItemTwo:hover{
+    transition: 1s;
+    color: #FAFAFA;
+}
+a:link, a:visited,a.text:active {
+    color: inherit;
+    text-decoration: none;
+}
+.mapOne{
+    position: relative;
+    bottom: 0.56rem;
+}
+.mapTwo{
+    position: relative;
+    bottom: 1.1rem;
+}
+.menu{
+    display: none;
+
+}
+.jennifer{
+    display: flex;
+}
+@media screen and (max-width:900px) {
+    body{
+        background-size: 100% 72.81rem;
+    }
+    .container{
+    max-width: 44.25rem;
+    }
+
+    .notOnly{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 63.43rem;
+        padding-top: 3.81rem;
+
+    }
+    .sectionOneText{
+        padding-left:0;
+        padding-top: 0;
+    }
+    h1{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 2.75rem;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        text-shadow: none;
+        -webkit-text-stroke-width: 0;
+        -webkit-text-stroke-color:#ffffff;
+    }
+    .buttonFirst{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+    .dogOne {
+        width: 100vw;
+        max-width: 81%;
+        height: 37.062rem;
+        position: relative;
+        top: 3.74rem;
+        left: 4.31rem;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+        background: #FFFFFF;
+        margin-top: 6.5rem;
+        align-items: center;
+        min-height: 54.25rem;
+        justify-content: space-between;
+        gap: 5rem;
+        padding-top: 1.5rem;
+    
+    }
+    .sectionTwoText {
+        padding-right: 0.625rem;
+    }
+    .dogTwo {
+        padding-right: 0; 
+         height: 25.5rem; 
+    }
+    .ourFriends{
+        margin-top: 6.36rem;
+    }
+    .petsHidden{
+        display: none;
+    }
+    .card{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem; 
+    width: 36.25rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        max-width: 39.37rem;
+        flex-wrap: wrap;
+        gap: 3.75rem;
+       justify-content: flex-start;
+        row-gap: 3.5rem;
+    }
+    .icon{
+    width: 10.62rem;
+    }
+    .help{
+        min-height: 48.68rem;
+    }
+    .donate{
+        flex-direction: column;
+        align-items: center;
+        height: 48.93rem;
+        padding-top: 5rem;
+        justify-content: flex-start;
+    }
+    .youCan{
+        align-items: start;
+        padding-right: 1.25rem;
+        height: 17.62rem;
+        gap: 1.25rem;
+    }
+    .donate>img{
+        width: 31.56rem;
+        height: 16.31rem;
+        position: relative;
+        top: 3.25rem;
+        right: 0;
+    }
+    .footerContent{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 1rem;
+        row-gap: 2.937rem;
+    }
+    .location{
+        right: 0.7rem;
+    }
+    .logo{
+        letter-spacing:0.11rem;
+    }
+    .jennifer{
+        display: flex;
+    }
+    .mapOne{
+        bottom: 0.8rem;
+    }
+    .mapTwo{
+        bottom: 1.4rem;
+    }
+    .puppy{
+    margin-top: -5px;
+    }
+}
+@media screen and (max-width:767px){
+    .nav{
+    display: none;
+    }
+    .menu{
+        display: flex;
+        gap: 0.5rem;
+        rotate: 90deg;
+        position: relative;
+        right: 1.56rem;
+    }
+    .dogOne{
+        left: 0;
+    }
+}
+@media screen and (max-width:683px){
+    .jennifer {
+        display: none;
+    }
+
+}
+@media screen and (max-width:400px){
+    .container{
+        max-width: 17.5rem;
+    }
+    .menu{
+        right: 0.25rem;
+        top: 0.9375rem;
+    }
+    .logoBlock{
+        align-items: flex-start;
+    }
+    .logoText {
+        letter-spacing: 0.08rem;
+    }
+    .logoText{
+        position: relative;
+        left: 0.25rem;
+    }
+    h1{font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        font-size: 1.562rem;
+    }
+    .textBr{
+        display: none;
+    }
+    .sectionOneText{
+        display: flex;
+        align-items: center;
+    
+    }
+    .sectionOneText>p{
+        text-align: center;
+        width: 104%;
+    }
+    .notOnly{
+        height: 42.062rem;
+    }
+    .dogOne {
+        left: 1.0625rem;
+        max-width: 16.25rem;
+        height: 17rem;
+        top: 3.6875rem;
+    }
+    body{
+        background-size: 100% 51.4375rem;
+    }
+    h2{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5625rem;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    .sectionTwoText{
+        align-items: center;
+        padding-top: 0;
+        padding-right: 0;
+        gap: 1.4rem;
+    }
+    .about{
+        padding-top: 0;
+        height: 55.625rem;
+    }
+    .sectionTwoPar{
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 160%;
+        text-align: justify;
+        width: 16.875rem;
+        color: #4C4C4C;
+    
+    }
+    .dogTwo{
+        width: 16.25rem;
+        height: 22.125rem;
+        position: relative;
+        top: -2.5rem;
+    }
+    .ourFriends {
+        margin-top: 2.5rem;
+        height: 49.43rem;
+    }
+    .friends{
+        top: 2.625rem;
+        gap: 2.6875rem;
+        justify-content: flex-start;
+    }
+    .topic{
+        width: 103%;
+    }
+    .jennifer{
+        display: none;
+    }
+    .formMob{
+        position: relative;
+        top: -2.1875rem;
+    }
+    .card{
+        order: -1;
+        width: 16.875rem;
+    }
+    .arrowCard{
+        flex-direction: column;
+    }
+    .arrowLeft{
+        position: relative;
+        right: 4.125rem;
+        top: 1.125rem;
+        order:2;
+    }
+    .arrowRight{
+        bottom: 2.125rem;
+        position: relative;
+        left: 4.125rem;
+        order:2;
+    }
+    .help>h2{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5625rem;
+        line-height: 130%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+        padding-top: 2.7rem;
+    }
+    .icon{
+        width:8.125rem;
+        height:  5.437rem;
+    }
+    .icon>img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+    .iconText{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    
+    }
+    .icons{
+        gap: 1.875rem;
+        height: 34.68rem;
+        width: 104%;
+        position: relative;
+        top: -1.25rem;
+    }
+    .help{
+        min-height: 46.56rem;
+    
+    }
+    .bankCard{
+        width: 17.5625rem;
+        height: 2.6875rem;
+    }
+    .inputText{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 110%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    .creditCard{
+    
+        height: 3.43rem
+    }
+    .donate{
+        padding-top: 2.625rem;
+    }
+    .youCan{
+        align-items: center;
+        padding-right: 0;
+    }
+    .youCan>h5{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9375rem;
+        line-height: 160%;
+        display: flex;
+        align-items: center;
+        color: #545454;
+        letter-spacing: 0rem;
+    }
+    .donateText{
+        font-family: 'Arial';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        color: #B2B2B2;
+    
+    }
+    .youCan>p>br{
+        display: none;
+    }
+    .donate>img{
+        width: 16.25rem;
+        height: 8.45rem;
+        top: 2.0625rem;
+    }
+    .donateSection{
+        height: 33.9063rem;
+    
+    }
+    .contacts>h3,.location>h3{
+        font-family: 'Georgia';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.5625rem;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+    }
+    .contacts>h3>br,.location>h3>br{
+        display: none;
+    }
+    .footerContent{
+        row-gap: 1.6rem;
+    }
+    .location{
+        position:static ;
+    }
+    .footerLink{
+        justify-content: center;
+    }
+    .mapOne {
+        position: relative;
+        bottom: 0.4375rem;
+        right: 0.5625rem;
+        width: 105%;
+        }
+    .mapTwo{
+        position: relative;
+        top: -0.6875rem;
+        right: 0.875rem;
+    
+    }
+    .footerText{
+        letter-spacing: 0.07rem;
+        }
+    .puppy{
+        width: 16.25rem;
+        height: 16.8125rem;
+        margin-top: 0.35rem;
+        position: static;
+
+    }
+    .contacts,.location{
+        padding-top: 0.9rem;
+    }
+}
